@@ -3,14 +3,14 @@ layers:
   LAYER0:
   - BT CLR ALL
   - $$mdi:bluetooth-off$$
-  - {t: '2', s: '@'}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
   - BT CLR ALL
   - $$mdi:bluetooth-off$$
-  - {t: '8', s: '*'}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
