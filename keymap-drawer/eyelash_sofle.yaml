@@ -1,27 +1,27 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
+  - BT CLR ALL
+  - $$mdi:bluetooth-off$$
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
+  - BT CLR ALL
+  - $$mdi:bluetooth-off$$
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - Q
   - W
   - E
   - R
   - T
   - $$mdi:arrow-down-bold$$
-  - Y
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - U
   - I
   - O
